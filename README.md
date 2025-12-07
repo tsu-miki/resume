@@ -1,22 +1,94 @@
 # 職務経歴書
 
 ## 職務要約
-- 2024年03月 ~ 現在       株式会社ユーザベース
-- 2021年04月 ~ 2024年02月 アライドアーキテクツ株式会社
+2021年4月にアライドアーキテクツ株式会社へ新卒入社。UGC活用マーケティングSaaS「Letro」の開発にて、UGC活用マーケティングSaaS「Letro」の開発にて、バックエンド開発に従事した後、フロントエンドへ領域を広げ、同プロダクトの新規・保守開発を経験（約3年）。
 
-2021年4月にアライドアーキテクツ株式会社にエンジニアとして新卒入社。SaaSプロダクト開発にて、主にバックエンドの保守開発・運用に従事（1年半）。その後、フロントエンドエンジニアに転向し、同プロダクトの新規開発・保守開発に従事（1年3ヶ月）。2024年3月より株式会社ユーザベースに入社し、現在に至る。
+2024年3月より株式会社ユーザベースへ入社。XP(エクストリームプログラミング)をベースにした開発体制のもと、バックエンド・フロントエンド開発に一貫して携わる形で、経済情報プラットフォーム「Speeda」の保守開発および「Speeda AI Agent」モバイル版・デスクトップ版（Web）の新規開発に従事し、現在に至る。
+
 
 ## 職務内容
 
-### 株式会社ユーザベース（2024年3月 〜 現在）
+### 株式会社ユーザベース（2024年3月〜現在）
 
-<!-- TODO: 職務内容を追記 -->
+[Speeda](https://jp.ub-speeda.com/)の開発に従事。
+
+#### 2025年1月〜現在　[Speeda AI Agentモバイル版](https://jp.ub-speeda.com/news/20251023/)、[デスクトップ版](https://www.uzabase.com/jp/info/20250901/)の新規開発
+
+##### 担当業務
+- モバイル
+    - Flutterによるモバイル開発
+- デスクトップ(Web)
+    - a
+
+<!-- 1-6 speeda agent, 7-now mobile, organization -->
+
+##### チーム構成
+ドメインエキスパート 1名、SWE4-5名、デザイナー 1名
+
+##### 使用技術
+| カテゴリ | 技術 |
+|---------|------|
+| バックエンド | F#, Rust, TypeScript, Python(Google ADK) |
+| フロントエンド | Lit |
+| iOS/Android | Flutter |
+| 検索エンジン | Elasticsearch |
+| データベース | PostgreSQL |
+| CI | Buildkite, ArgoCD |
+| クラウド | GCP |
+| コンテナオーケストレーション | Kubernetes, GKE |
+| サービスメッシュ | Istio |
+| 構成管理 | Terraform |
+| モニタリング | Datadog |
+| テストツール | Gauge, Selenide, Appium |
+| リポジトリ管理 | GitHub |
+| ドキュメント、コミュニケーション | Notion, Slack |
+| デザインツール | Figma |
+
+##### 主な実績
+<!-- 
+google adk 評価
+F# 非同期ストリーミング
+CI/CD docker cache
+ -->
+
+
+#### 2024年3月〜2024年12月 Speedaの保守開発
+<!-- 3-6 news-feed, 7-12 disclosure, hitoriproject -->
+##### 担当業務
+
+
+##### チーム構成
+PdM 1名、SWE5名、デザイナー 1名
+
+##### 使用技術
+| カテゴリ | 技術 |
+|---------|------|
+| バックエンド | F#, Go |
+| フロントエンド | Lit, React, Elm |
+| 検索エンジン | Elasticsearch |
+| データベース | PostgreSQL |
+| CI | Buildkite, ArgoCD |
+| クラウド | GCP |
+| コンテナオーケストレーション | Kubernetes, GKE |
+| サービスメッシュ | Istio |
+| 構成管理 | Terraform |
+| モニタリング | Datadog |
+| テストツール | Gauge, Selenide |
+| リポジトリ管理 | GitHub, Bitbucket |
+| ドキュメント、コミュニケーション | Notion, Slack |
+| デザインツール | Figma |
+
+##### 主な実績
+<!-- 
+- cdc
+
+ -->
 
 ---
 
-### アライドアーキテクツ株式会社（2021年4月 〜 2024年2月）
+### アライドアーキテクツ株式会社（2021年4月〜2024年2月）
 
-[Letro](https://service.aainc.co.jp/product/letro/)（UGC活用マーケティングSaaS）の開発に従事。
+[Letro](https://service.aainc.co.jp/product/letro/)の開発に従事。
 
 ---
 
