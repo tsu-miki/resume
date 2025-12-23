@@ -2,7 +2,9 @@
 
 ## 目次
 
+- [プロフィール](#プロフィール)
 - [職務要約](#職務要約)
+- [スキル・経験](#スキル・経験)
 - [職務内容](#職務内容)
   - [株式会社ユーザベース（2024年3月〜現在）](#株式会社ユーザベース2024年3月現在)
     - [2025年1月〜現在　Speeda AI Agent 新規開発](#2025年1月現在speeda-ai-agentモバイル版デスクトップ版の新規開発)
@@ -17,10 +19,44 @@
 
 ---
 
+## プロフィール
+- フロントエンドからバックエンドまで横断的に携わる開発の経験が多いです
+- XPをベースにしたアジャイル開発の実務経験があります
+- ビジネスサイドやデザイナーと密にコミュニケーションを取れる環境でバリューを発揮できるタイプです
+- 多様な言語・技術スタックに柔軟に対応できます
+- 好きな言語は F# と Rust、好きな業務は CI/CD を高速化することです
+
 ## 職務要約
 2021年4月にアライドアーキテクツ株式会社へソフトウェアエンジニアとして新卒入社。UGC活用マーケティングSaaS「[Letro](https://service.aainc.co.jp/product/letro/)」の新規・保守開発を経験（約3年）。
 
 2024年3月より株式会社ユーザベースへ入社。XPをベースとした開発体制のもと、経済情報プラットフォーム「[Speeda](https://jp.ub-speeda.com/)」の新規・保守開発に従事し、現在に至る。
+
+
+## スキル・経験
+
+### 言語
+F# | Rust | PHP | TypeScript | Go | Dart | Python | JavaScript | PHP | HTML | CSS  
+
+### フレームワーク
+Laravel | Vue.js | Lit | Flutter | React | Next.js | Google ADK
+
+### データベース・検索
+PostgreSQL | MySQL | Elasticsearch
+
+### クラウド
+GCP | AWS
+
+### コンテナ・オーケストレーション
+Docker | Kubernetes | Istio
+
+### CI/CD
+Buildkite | ArgoCD | GitHub Actions
+
+### モニタリング
+Datadog | New Relic
+
+### その他
+Git | Terraform | Notion | Figma
 
 ## 職務内容
 
@@ -64,7 +100,6 @@
 | ドキュメント、コミュニケーション | Notion, Slack |
 | デザインツール | Figma |
 
-##### 主な実績
 <!-- 
 google adk 評価
 F# 非同期ストリーミング
@@ -297,3 +332,7 @@ PM 1名、開発 4名、デザイナー 1名
 #### 得られた経験
 - DB設計からバックエンド・フロントエンド開発まで0から幅広く関わる経験
 - TypeScript, Reactによるフロントエンド開発の経験
+
+## 自分の強み
+
+## その他
