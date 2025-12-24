@@ -16,13 +16,14 @@
   - [乗馬倶楽部ホームページ制作](#2023年6月8月乗馬倶楽部ホームページ制作)
   - [IT勉強会の運営](#2020年1月2023年2月it勉強会の運営)
   - [Web学習サービスの新規開発](#2021年頃4ヶ月間web学習サービスの新規開発)
+- [自分の強み](#自分の強み)
 
 ---
 
 ## プロフィール
 - フロントエンドからバックエンドまで横断的に携わる開発の経験が多いです
 - XPをベースにしたアジャイル開発の実務経験があります
-- ビジネスサイドやデザイナーと密にコミュニケーションを取れる環境でバリューを発揮できるタイプです
+- ビジネスサイドやデザイナーと密にコミュニケーションが取れる環境でバリューを発揮しやすいです
 - 多様な言語・技術スタックに柔軟に対応できます
 - 好きな言語は F# と Rust、好きな業務は CI/CD を高速化することです
 
@@ -41,7 +42,7 @@ F# | Rust | PHP | TypeScript | Go | Dart | Python | JavaScript | PHP | HTML | CS
 Laravel | Vue.js | Lit | Flutter | React | Next.js | Google ADK
 
 ### データベース・検索
-PostgreSQL | MySQL | Elasticsearch
+PostgreSQL | MySQL | Elasticsearch | BigTable | BigQuery
 
 ### クラウド
 GCP | AWS
@@ -52,11 +53,14 @@ Docker | Kubernetes | Istio
 ### CI/CD
 Buildkite | ArgoCD | GitHub Actions
 
+### テストツール
+Gauge | Selenide | Playwright | Appium | PHPUnit | Jest
+
 ### モニタリング
 Datadog | New Relic
 
 ### その他
-Git | Terraform | Notion | Figma
+Git | Terraform | Notion | Figma | SendGrid | Hinemos
 
 ## 職務内容
 
@@ -100,11 +104,12 @@ Git | Terraform | Notion | Figma
 | ドキュメント、コミュニケーション | Notion, Slack |
 | デザインツール | Figma |
 
-<!-- 
-google adk 評価
-F# 非同期ストリーミング
-CI/CD docker cache
- -->
+##### 主な実績
+- F# で `IAsyncEnumerable<T>` を活用した非同期ストリーム処理の設計・実装
+- AI Agent の品質評価基盤の構築（ROUGE, BERTScore, LLM-as-a-Judge を導入）
+- Buildkite と ArgoCD による CI/CD パイプラインの構築
+- Docker ビルドの高速化（cargo-chef、BuildKit キャッシュマウント、非ルートユーザー実行の導入）
+- Flutter で Riverpod と Sliver を用いた無限スクロール UI の実装
 
 ---
 
@@ -130,27 +135,22 @@ PdM 1名、SWE5名、デザイナー 1名
 | バックエンド | F#, Go |
 | フロントエンド | Lit, React, Elm |
 | 検索エンジン | Elasticsearch |
-| データベース | PostgreSQL, Debezium |
+| データベース | PostgreSQL, Debezium, BigTable, BigQuery |
 | CI | Buildkite, ArgoCD |
 | クラウド | GCP |
 | コンテナオーケストレーション | Kubernetes, GKE, Cloud Run |
 | サービスメッシュ | Istio |
 | 構成管理 | Terraform |
 | モニタリング | Datadog |
-| テストツール | Gauge, Selenide |
+| テストツール | Gauge, Selenide, Playwright |
 | リポジトリ管理 | GitHub, Bitbucket |
 | ドキュメント、コミュニケーション | Notion, Slack |
 | デザインツール | Figma |
+| その他 | SendGrid, Hinemos |
 
 ##### 主な実績
-<!-- 3-6 news-feed, 7-12 disclosure, hitoriproject -->
-
-<!-- 
-- cdc
-
- -->
-
----
+- Debezium と Cloud Run を用いた CDC（Change Data Capture）の構築
+- SendGrid、BigTable、Hinemos による日次メール配信の運用
 
 ### アライドアーキテクツ株式会社（2021年4月〜2024年2月）
 
@@ -186,40 +186,13 @@ PdM 1名、PM 3名、フロントエンド 3名、バックエンド 2名、SRE 
 | デザインツール | Figma |
 
 ##### 主な実績
-
-**1. [レポート機能](https://letro.zendesk.com/hc/ja/articles/17299606333197)のフロントエンド開発**
-
-複数のデータ項目からSession、Inview、CVなどの数値を合算し、表やグラフで表示する機能の開発。
-
-- **課題**: 
-    - 既存アーキテクチャではorganisms相当のコンポーネントが煩雑になりやすく、テスタビリティや可読性が低下していた
-    - デザインに合った既存のコンポーネントが少なく、それに伴い実装にかかる工数が増大していた
-- **解決策**: 
-    - Container/Presentationalパターンを採用し、関心の分離を実現
-    - デザイナー・PMと既存コンポーネントで実現可能な範囲と、新しく作る場合の工数の擦り合わせを行い、工数の大きいデザインは数を限定して実装を進めた
-- **成果**: 
-    - 可読性・テスト容易性・Presentationalコンポーネントの再利用性の向上に繋がった
-    - 当初想定していた期日でのリリースを実現。フェーズ分けをして開発を進めていくことで、ビジネス的遅延や技術的負債を防ぎ、スムーズなリリースを実現した
-
-**2. [薬機法チェック機能](https://prtimes.jp/main/html/rd/p/000000191.000058547.html)のPM・フロントエンド開発**
-
-株式会社REGAL COREとの提携を通じて、マーケティングで利用予定のUGC（User Generated Content）が薬機法に違反していないかをチェックする機能（[イメージ図](https://prcdn.freetls.fastly.net/release_image/58547/191/58547-191-a14f4cbcccd88d004293d8ab219b50f6-750x356.png?format=jpeg&auto=webp&quality=85&width=1950&height=1350&fit=bounds)）の開発。PMとフロントエンド開発を兼務。
-
-- **課題**: 
-    - 開発期間1.5ヶ月という制約の中、当初の管理画面実装案では期間内リリースが困難だった
-    - 薬機法の改正を受けて急遽開発が決定されたため、適切なPMをアサインできる状況になかった
-- **解決策**: 
-    - 校閲作業をExcelファイル上で行う仕様に変更し、管理画面の実装工数を大幅削減
-    - フロントエンド開発とPMを兼務
-- **成果**: 
-    - 1.5ヶ月でのリリースを達成
-
-**3. その他の開発実績**
-- Web Componentsを使用したウィジェット機能の保守開発
-- [Instagramリール(縦型)動画表示機能](https://letro.zendesk.com/hc/ja/articles/18218995443085)の開発
-- [レビュー機能リニューアル](https://letro.zendesk.com/hc/ja/articles/13063415521549)における新画面開発（商品一覧・商品取り込みページ等）
-- [CI設定](https://tech.aainc.co.jp/archives/12861)の整備
-- [Tech Blog](https://tech.aainc.co.jp/)の運営・月1回の社内勉強会の企画推進
+- Container/Presentational パターンを採用した[レポート機能](https://letro.zendesk.com/hc/ja/articles/17299606333197)のフロントエンド開発
+- [薬機法チェック機能](https://prtimes.jp/main/html/rd/p/000000191.000058547.html)の PM 兼フロントエンド開発（1.5ヶ月でリリース）
+- Web Components を使用したウィジェット機能の保守開発
+- [Instagram リール動画表示機能](https://letro.zendesk.com/hc/ja/articles/18218995443085)の開発
+- [レビュー機能リニューアル](https://letro.zendesk.com/hc/ja/articles/13063415521549)における新画面開発
+- [CI 設定の整備](https://tech.aainc.co.jp/archives/12861)および開発プロセスの改善
+- [Tech Blog](https://tech.aainc.co.jp/) の運営・月1回の社内勉強会の企画推進
 
 ---
 
@@ -253,22 +226,9 @@ PdM 1名、PM 1名、開発 2名
 | ドキュメント、コミュニケーション | Notion, Slack |
 
 ##### 主な実績
-
-**1. 掲載URL一覧機能のバックエンド開発**
-
-Letroが掲載されているURLと各URL毎の数値(Session, Inview, CV等)を一覧化する機能の開発。
-
-- **課題**: 
-    - URL情報がローデータとしてのみ存在し、SQLでの数値算出処理が重くなっていた
-- **解決策**: 
-    - 日次データ用のサマリーテーブルを新規作成し、バッチ処理でデータ投入するようにした
-    - chunk処理とbulk insertを採用し高負荷を防止
-- **成果**:
-    - 1件あたり1〜2時間かかっていた一覧化作業が数分に短縮
-
-**2. その他の実績**
-- 機能化とドキュメント整備により、テクニカルサポート対応時間を週15時間から4時間に削減
-- Notionの導入・活用を推進し、新規参加者向けの基本ドキュメントを整備
+- 掲載 URL 一覧機能のバックエンド開発（サマリーテーブル導入により一覧化作業を1〜2時間から数分に短縮）
+- テクニカルサポート対応の効率化（機能化・ドキュメント整備により週15時間→4時間に削減）
+- Notion の導入・活用を推進し、新規参加者向けドキュメントを整備
 - 開発部全体の月次定例会の運営
 - [採用記事](https://www.wantedly.com/companies/AlliedArchitects/post_articles/415600)のディレクション・執筆
 
@@ -333,6 +293,5 @@ PM 1名、開発 4名、デザイナー 1名
 - DB設計からバックエンド・フロントエンド開発まで0から幅広く関わる経験
 - TypeScript, Reactによるフロントエンド開発の経験
 
-## 自分の強み
-
 ## その他
+- [発表資料一覧](https://www.docswell.com/user/tsu-miki)
