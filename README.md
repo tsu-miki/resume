@@ -4,8 +4,8 @@
 
 - [プロフィール](#プロフィール)
 - [職務要約](#職務要約)
-- [スキル・経験](#スキル・経験)
-- [職務内容](#職務内容)
+- [活かせる経験・技術](#活かせる経験技術)
+- [職務経歴](#職務経歴)
   - [株式会社ユーザベース（2024年3月〜現在）](#株式会社ユーザベース2024年3月現在)
     - [2025年1月〜現在　Speeda AI Agent 新規開発](#2025年1月現在speeda-ai-agentモバイル版デスクトップ版の新規開発)
     - [2024年3月〜2024年12月　Speeda 保守開発](#2024年3月2024年12月-speedaの保守開発)
@@ -16,7 +16,7 @@
   - [乗馬倶楽部ホームページ制作](#2023年6月8月乗馬倶楽部ホームページ制作)
   - [IT勉強会の運営](#2020年1月2023年2月it勉強会の運営)
   - [Web学習サービスの新規開発](#2021年頃4ヶ月間web学習サービスの新規開発)
-- [自分の強み](#自分の強み)
+- [その他](#その他)
 
 ---
 
@@ -32,37 +32,21 @@
 
 2024年3月より株式会社ユーザベースへ入社。XPをベースとした開発体制のもと、経済情報プラットフォーム「[Speeda](https://jp.ub-speeda.com/)」の新規・保守開発に従事し、現在に至る。
 
+## 活かせる経験・技術
+- 【メイン】F#, Rust, TypeScript, PHP(Laravel) を使用したバックエンド開発
+- 【メイン】Lit, Vue.js, React によるフロントエンド開発
+- 【メイン】CI/CD パイプラインの構築・運用・高速化
+- 【メイン】Gauge, Selenide, Playwright, Appium を用いた E2E テスト自動化の設計・運用
+- 【メイン】アジャイル開発（XP、ペアプログラミング、テスト駆動開発）
+- Kubernetes, Istio を活用したマイクロサービス・マイクロフロントエンドの開発・運用
+- Elasticsearch を活用した検索機能のバックエンド開発
+- Python を使用した AI エージェント開発
+- Flutter による iOS/Android モバイルアプリ開発
+- PostgreSQL, MySQL 等を使用したデータベース設計・運用
+- 多職種（PdM・ドメインエキスパート・デザイナー）との円滑なコミュニケーション
+- テクニカルサポート及び業務効率化
 
-## スキル・経験
-
-### 言語
-F# | Rust | PHP | TypeScript | Go | Dart | Python | JavaScript | PHP | HTML | CSS  
-
-### フレームワーク
-Laravel | Vue.js | Lit | Flutter | React | Next.js | Google ADK
-
-### データベース・検索
-PostgreSQL | MySQL | Elasticsearch | BigTable | BigQuery
-
-### クラウド
-GCP | AWS
-
-### コンテナ・オーケストレーション
-Docker | Kubernetes | Istio
-
-### CI/CD
-Buildkite | ArgoCD | GitHub Actions
-
-### テストツール
-Gauge | Selenide | Playwright | Appium | PHPUnit | Jest
-
-### モニタリング
-Datadog | New Relic
-
-### その他
-Git | Terraform | Notion | Figma | SendGrid | Hinemos
-
-## 職務内容
+## 職務経歴
 
 ### 株式会社ユーザベース（2024年3月〜現在）
 
